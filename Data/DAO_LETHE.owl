@@ -1,0 +1,4440 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Adulterant -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Adulterant">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Drug"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Aminoindane-type -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Aminoindane-type">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Psychostimulants"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Analgesics -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Analgesics">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Drug"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Anticholinergic -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Anticholinergic">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Hallucinogen"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Antidepressant -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Antidepressant">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Psychological_Disorders_Treatment"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Antiepileptic -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Antiepileptic">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Sedative"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Antihistamines -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Antihistamines">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Drug"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Antipsychotic -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Antipsychotic">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Psychological_Disorders_Treatment"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Barbiturates -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Barbiturates">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Sedative"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Benzodiazepine -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Benzodiazepine">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Sedative"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Benzofuran-type -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Benzofuran-type">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Phenylethylamine-type"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Bipolar_Treatment -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Bipolar_Treatment">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Psychological_Disorders_Treatment"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Partial_Agonists"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine_analgesic -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine_analgesic">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine_opioid_depend -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine_opioid_depend">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Caffeine -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Caffeine">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Psychostimulants"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Cannabidiol -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Cannabidiol">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Cannabis"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Cannabis -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Cannabis">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Analgesics"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Catecholaminelike -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Catecholaminelike">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Hallucinogen"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Cathinone -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Cathinone">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Phenylethylamine-type"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Cimetidine -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Cimetidine">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Antihistamines"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Citrus -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Citrus">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Nutritional_Products"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Cocaine -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Cocaine">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Psychostimulants"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Codeine -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Codeine">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/DNRI -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/DNRI">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Antidepressant"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Dimethoxy -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Dimethoxy">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_Amphetamine_Derivates"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Diphenhydramine -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Diphenhydramine">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Antihistamines"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Drug -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Drug"/>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Ethanol -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Ethanol">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Sedative"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Fentanyl-type -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Fentanyl-type">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/General -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/General">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Drug"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Glutaminergic_NMDA_Antagonists -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Glutaminergic_NMDA_Antagonists">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Hallucinogen"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Hallucinogen -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Hallucinogen">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Drug"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Herbal-Sedatives -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Herbal-Sedatives">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Sedative"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Heroin -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Heroin">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Hydrocodone -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Hydrocodone">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Hydromorphone -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Hydromorphone">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Inhalants -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Inhalants">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Sedative"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Loperamide -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Loperamide">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/MAOI -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/MAOI">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Antidepressant"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Methadone -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Methadone">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Mixed_Agonist-Antagonists -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Mixed_Agonist-Antagonists">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Opioid"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Monomethoxy -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Monomethoxy">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_Amphetamine_Derivates"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Morphine -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Naloxone -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Naloxone">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Antagonists"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Naltrexone -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Naltrexone">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Antagonists"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Natural_Cannabis -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Natural_Cannabis">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Cannabis"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Nicotine -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Nicotine">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Psychostimulants"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Fentanyl-type"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/NonBarbiturate_Sedatives -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/NonBarbiturate_Sedatives">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Sedative"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Nonnarcotic_Anti-imflammatory_Analgesics -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Nonnarcotic_Anti-imflammatory_Analgesics">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Analgesics"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Nutritional_Products -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Nutritional_Products">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Drug"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Opioid -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Opioid">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Analgesics"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Oxycodone-type -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycodone-type">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Oxycodone_IR -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycodone_IR">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycodone-type"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Oxycontin-type -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycontin-type">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycodone-type"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Oxymorphone -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Oxymorphone">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Partial_Agonists -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Partial_Agonists">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Opioid"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Pharmaceutical_Fentanyl -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Pharmaceutical_Fentanyl">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Fentanyl-type"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Phenylethylamine-type -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Phenylethylamine-type">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Psychostimulants"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Piperazine-type -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Piperazine-type">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Psychostimulants"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Pipradol-type -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Pipradol-type">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Phenylethylamine-type"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Psychological_Disorders_Treatment -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Psychological_Disorders_Treatment">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Drug"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Psychostimulants -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Psychostimulants">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Drug"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Opioid"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Antagonists -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Antagonists">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Opioid"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Quinine -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Quinine">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Nutritional_Products"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/SCRA -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/SCRA">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Cannabis"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/SNRI -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/SNRI">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Antidepressant"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/SSRI -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/SSRI">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Antidepressant"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Salvinorin -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Salvinorin">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Hallucinogen"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Sedative -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Sedative">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Drug"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Stimulant -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Stimulant">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Psychostimulants"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Synthacaine -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Synthacaine">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Cocaine"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_Amphetamine_Derivates -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_Amphetamine_Derivates">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Psychostimulants"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_Opioid -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_Opioid">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/TCA -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/TCA">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Antidepressant"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Tramadol -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Tramadol">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Partial_Agonists"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Trimethoxy -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Trimethoxy">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_Amphetamine_Derivates"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Hallucinogen"/>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/A-Methylacetylfentanyl -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/A-Methylacetylfentanyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/AET -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/AET">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/AH-7921 -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/AH-7921">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_Opioid"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/AMT -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/AMT">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Acetone -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Acetone">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Inhalants"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Acetyl-fentanyl -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Acetyl-fentanyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Acrylfentanyl -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Acrylfentanyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Acryloylfentanyl -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Acryloylfentanyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Adanon -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Adanon">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Methadone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Addnok -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Addnok">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine_opioid_depend"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Agmatine -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Agmatine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Adulterant"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Alcohol -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Alcohol">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Ethanol"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Alfentanil -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Alfentanil">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Algidon -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Algidon">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Methadone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Algovetin -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Algovetin">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Methadone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Alphamethylthiofentanyl -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Alphamethylthiofentanyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Alprazolam -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Alprazolam">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Benzodiazepine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Althose_hydrochloride -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Althose_hydrochloride">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Methadone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Amobarbital -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Amobarbital">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Barbiturates"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Amphetamine -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Amphetamine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Phenylethylamine-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Anxiolytic -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Anxiolytic">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Benzodiazepine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Apokyn -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Apokyn">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Aprobarbital -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Aprobarbital">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Barbiturates"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Astramorph_PF -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Astramorph_PF">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Avinza -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Avinza">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/BZP -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/BZP">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Piperazine-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Bekadid -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Bekadid">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Hydrocodone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Benzodiazepine -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Benzodiazepine">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Benzodiazepine"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Beta-Methylfentanyl -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Beta-Methylfentanyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Betahydroxyfentanyl -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Betahydroxyfentanyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Betahydroxythiofentanyl -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Betahydroxythiofentanyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Brifentanil -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Brifentanil">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Bromo-DragonFLY -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Bromo-DragonFLY">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Benzofuran-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Bromochlorodifluoromethane -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Bromochlorodifluoromethane">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Inhalants"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Bufotenine -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Bufotenine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Bunavail -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Bunavail">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine_opioid_depend"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Buprel -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Buprel">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine_analgesic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Buprenex -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenex">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine_analgesic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine_analgesic -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine_analgesic">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Buprigesic -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Buprigesic">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine_analgesic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Butabarbital -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Butabarbital">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Barbiturates"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Butane -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Butane">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Inhalants"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Butorphanol -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Butorphanol">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Mixed_Agonist-Antagonists"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Butrans -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Butrans">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine_analgesic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Butryfentanyl -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Butryfentanyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Butyl_Nitrate -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Butyl_Nitrate">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Inhalants"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Butyr-Fentanyl -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Butyr-Fentanyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Caffeine -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Caffeine">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Caffeine"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Cannabidiol -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Cannabidiol">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Cannabidiol"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Cannabis -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Cannabis">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Natural_Cannabis"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Cannabis_Edibles -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Cannabis_Edibles">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Natural_Cannabis"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Cannabis_Resin -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Cannabis_Resin">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Natural_Cannabis"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Carfentanil -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Carfentanil">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Chlorodiazepoxide -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Chlorodiazepoxide">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Benzodiazepine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Chlorofluorocarbons -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Chlorofluorocarbons">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Inhalants"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Cimetidine -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Cimetidine">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Cimetidine"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Citrus -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Citrus">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Nutritional_Products"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Clonazepam -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Clonazepam">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Benzodiazepine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Clorazepam -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Clorazepam">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Benzodiazepine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Cocaine_hcl -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Cocaine_hcl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Cocaine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Codeine -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Codeine">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Codeine"/>
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Codinovo -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Codinovo">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Hydrocodone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Combunox -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Combunox">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycodone_IR"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Compound -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Compound">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Drug"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Crack -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Crack">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Cocaine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Crotonylfentanyl -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Crotonylfentanyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Cyclohexyl -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Cyclohexyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Inhalants"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/DALT -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/DALT">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/DBZP -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/DBZP">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Piperazine-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/DET -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/DET">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/DMA -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/DMA">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Catecholaminelike"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/DOB -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/DOB">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Dimethoxy"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/DOC -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/DOC">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Dimethoxy"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/DOI -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/DOI">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Dimethoxy"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/DOM -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/DOM">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Catecholaminelike"/>
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Dimethoxy"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/DPT -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/DPT">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/DXM -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/DXM">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Nonnarcotic_Anti-imflammatory_Analgesics"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Depodur -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Depodur">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Depridol -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Depridol">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Methadone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Desoxypipradol -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Desoxypipradol">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pipradol-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Dextroamphetamine -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Dextroamphetamine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Phenylethylamine-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Dextromethamphetamine -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Dextromethamphetamine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Phenylethylamine-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Dextromethorphan -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Dextromethorphan">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Glutaminergic_NMDA_Antagonists"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Dezocine -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Dezocine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Mixed_Agonist-Antagonists"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/DiMo -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/DiMo">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Hydromorphone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/DiPT -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/DiPT">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Diazepam -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Diazepam">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Benzodiazepine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Dicodid -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Dicodid">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Hydrocodone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Dihydrocodeine -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Dihydrocodeine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Codeine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Dilaudid -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Dilaudid">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Hydromorphone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Dimethocaine -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Dimethocaine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Synthacaine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Dimethyltryptamine -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Dimethyltryptamine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Dimorphone -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Dimorphone">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Hydromorphone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Diphenhydramine -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Diphenhydramine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Adulterant"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Diphenylpropinol -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Diphenylpropinol">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pipradol-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Diphydrone -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Diphydrone">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycodone_IR"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Dolohepton -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Dolohepton">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Methadone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Dolophine -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Dolophine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Methadone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Dulcontin -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Dulcontin">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Duramorph_PF -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Duramorph_PF">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Duromorph -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Duromorph">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Elemicin -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Elemicin">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Catecholaminelike"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Endocet -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Endocet">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycodone_IR"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Endodan -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Endodan">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycodone_IR"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Enflurane -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Enflurane">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Inhalants"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Epimorph -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Epimorph">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Ergine -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Ergine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Estazolam -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Estazolam">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Benzodiazepine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Ethchlorvynol -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Ethchlorvynol">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/NonBarbiturate_Sedatives"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Ethyl_Acetate -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Ethyl_Acetate">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Inhalants"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Fenadone -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Fenadone">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Methadone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Fentanest -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Fentanest">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Fentanyl -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Fentanyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Fentanyl_Solution -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Fentanyl_Solution">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Flunitrazepam -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Flunitrazepam">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Benzodiazepine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Fluorocarbons -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Fluorocarbons">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Inhalants"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Flurazepam -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Flurazepam">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Benzodiazepine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Furanyl-Fentanyl -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Furanyl-Fentanyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Furanylethylfentanyl -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Furanylethylfentanyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Gabapentin -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Gabapentin">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Antiepileptic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/GammaHydroxyButyrate -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/GammaHydroxyButyrate">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Sedative"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Generic_Oxycontin -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Generic_Oxycontin">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycontin-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Glutethimide -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Glutethimide">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/NonBarbiturate_Sedatives"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Grapefruit_Juice -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Grapefruit_Juice">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Citrus"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Halazepam -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Halazepam">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Benzodiazepine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Halothane -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Halothane">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Inhalants"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Harmine -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Harmine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Heptadon -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Heptadon">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Methadone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Heptanon -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Heptanon">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Methadone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Herbal_Marijuana -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Herbal_Marijuana">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Natural_Cannabis"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Heroin -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Heroin">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Heroin"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Hexane -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Hexane">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Inhalants"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Hycodan -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Hycodan">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Hydrocodone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Hydrocarbons -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Hydrocarbons">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Inhalants"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Hydrocodone -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Hydrocodone">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Hydrocodone"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Hydromorphone -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Hydromorphone">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Partial_Agonists"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Hymorphan -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Hymorphan">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Hydromorphone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Ibogaine -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Ibogaine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Ibudilast -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Ibudilast">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Antihistamines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Idromorfone -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Idromorfone">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Hydromorphone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Ionsys -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Ionsys">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Isoamyl -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Isoamyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Inhalants"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Isobutyl -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Isobutyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Inhalants"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Isopropane -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Isopropane">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Inhalants"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Isopropyl -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Isopropyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Inhalants"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Kadian -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Kadian">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Kava -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Kava">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Herbal-Sedatives"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Ketalgin -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Ketalgin">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Methadone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Ketamine -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Ketamine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Glutaminergic_NMDA_Antagonists"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Khat -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Khat">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Cathinone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Kratom -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Kratom">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Psychostimulants"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/LSA -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/LSA">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/LSD -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/LSD">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Laudacon -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Laudacon">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Hydromorphone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Laudicon -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Laudicon">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Hydromorphone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Lithium -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Lithium">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Bipolar_Treatment"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Lofentanil -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Lofentanil">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Loperamide -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Loperamide">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Loperamide"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Lorazepam -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Lorazepam">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Benzodiazepine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Lorcet -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Lorcet">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Hydrocodone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Lortab -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Lortab">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Hydrocodone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/M-Eslon -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/M-Eslon">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/M.O.S -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/M.O.S">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/MBZP -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/MBZP">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Piperazine-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/MDA -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/MDA">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Catecholaminelike"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/MDBP -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/MDBP">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Piperazine-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/MDBZP -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/MDBZP">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Piperazine-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/MDE -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/MDE">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Catecholaminelike"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/MDMA -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/MDMA">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Catecholaminelike"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/MDOB -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/MDOB">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Phenylethylamine-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/MDPPP -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/MDPPP">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Cathinone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/MDVP -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/MDVP">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Cathinone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/MOPPP -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/MOPPP">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Monomethoxy"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/MPBP -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/MPBP">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Benzofuran-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/MPF-47700 -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/MPF-47700">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_Opioid"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/MPHP -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/MPHP">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Cathinone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/MPPP -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/MPPP">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/MSIR -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/MSIR">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/MS_L -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/MS_L">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/MS_S -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/MS_S">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/MT-45 -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/MT-45">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_Opioid"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Mannitol -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Mannitol">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Adulterant"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Marijuana_Concentrates -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Marijuana_Concentrates">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Natural_Cannabis"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Marijuana_Flower -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Marijuana_Flower">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Natural_Cannabis"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Mathadone -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Mathadone">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Methadone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/MeOPP -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/MeOPP">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Piperazine-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Mecodin -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Mecodin">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Methadone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Medical_Marijuana -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Medical_Marijuana">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Natural_Cannabis"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Meperidine -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Meperidine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Mephedrone -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Mephedrone">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Cathinone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Mephenon -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Mephenon">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Methadone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Mephobarbital -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Mephobarbital">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Barbiturates"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Meprobamate -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Meprobamate">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/NonBarbiturate_Sedatives"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Mescaline -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Mescaline">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Catecholaminelike"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Methadone -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Methadone">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Methadose -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Methadose">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Methadone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Methamphetamine -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Methamphetamine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Phenylethylamine-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Methaqualone -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Methaqualone">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/NonBarbiturate_Sedatives"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Methohexial -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Methohexial">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Barbiturates"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/MethoxyAcetylFentanyl -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/MethoxyAcetylFentanyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Methyl_Butyl_Ketone -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Methyl_Butyl_Ketone">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Inhalants"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Methyl_Chloride -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Methyl_Chloride">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Inhalants"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Methyl_Ethyl_Ketone -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Methyl_Ethyl_Ketone">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Inhalants"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Methylfentanyl -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Methylfentanyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Methylone -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Methylone">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Cathinone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Methylphenidate -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Methylphenidate">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Stimulant"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Methylprylon -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Methylprylon">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/NonBarbiturate_Sedatives"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Miadone -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Miadone">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Methadone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Midazolam -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Midazolam">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Benzodiazepine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Mirfentanil -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Mirfentanil">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Moheptan -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Moheptan">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Methadone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Morgesic -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Morgesic">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine_analgesic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Morphine -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Ms_Contin -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Ms_Contin">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Myristin -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Myristin">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Catecholaminelike"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Mytraynine -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Mytraynine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/N-Methylcarfentanil -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/N-Methylcarfentanil">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Nalbupine -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Nalbupine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Mixed_Agonist-Antagonists"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Naloxone -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Naloxone">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Naloxone"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Nepenthe -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Nepenthe">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Nitrazepam -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Nitrazepam">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Benzodiazepine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Nitrocaine -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Nitrocaine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Synthacaine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Nitrous_Oxide -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Nitrous_Oxide">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Inhalants"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Norco -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Norco">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Hydrocodone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Nordiazepam -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Nordiazepam">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Benzodiazepine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Norspan -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Norspan">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine_analgesic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Novolaudon -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Novolaudon">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Hydromorphone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Numorphan -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Numorphan">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Oxymorphone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/OMS_Concentrate -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/OMS_Concentrate">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/OPANA_ER -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/OPANA_ER">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Oxymorphone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Ocfentanil -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Ocfentanil">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Ohmefentanyl -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Ohmefentanyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Ololiuqui -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Ololiuqui">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Opana -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Opana">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Oxymorphone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Opioid -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Opioid">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Opioid"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Opium -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Opium">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Oramorph_SR -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Oramorph_SR">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Orange_Juice -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Orange_Juice">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Citrus"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Ospalivina -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Ospalivina">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Oxazepam -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Oxazepam">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Benzodiazepine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/OxyFAST -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/OxyFAST">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycodone_IR"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/OxyNorm -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/OxyNorm">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycodone_IR"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Oxycodone -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycodone">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycodone_IR"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Oxycontin-type -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycontin-type">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycontin-type"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Oxycontin_OC -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycontin_OC">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycontin-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Oxycontin_OP -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycontin_OP">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycontin-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Oxymorphone -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Oxymorphone">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Oxymorphone"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/PMA -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/PMA">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Monomethoxy"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/PMEA -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/PMEA">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Monomethoxy"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/PMMA -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/PMMA">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Monomethoxy"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/PPP -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/PPP">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Cathinone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/PVP -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/PVP">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Cathinone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Palladone -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Palladone">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Hydromorphone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Paraflurofentanyl -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Paraflurofentanyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Pentafentanyl -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Pentafentanyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Pentazocine -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Pentazocine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Mixed_Agonist-Antagonists"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Pentobarbital -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Pentobarbital">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Barbiturates"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Percocet -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Percocet">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycodone_IR"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Percodan -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Percodan">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycodone_IR"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Percolone -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Percolone">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycodone_IR"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Phenadone -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Phenadone">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Methadone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Phencyclidine -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Phencyclidine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Glutaminergic_NMDA_Antagonists"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Phenobarbital -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Phenobarbital">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Barbiturates"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Pipradol -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Pipradol">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pipradol-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Poppy_tea -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Poppy_tea">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Prazepam -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Prazepam">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Benzodiazepine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Pregabalin -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Pregabalin">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Antiepileptic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Probuphine -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Probuphine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine_opioid_depend"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Proglumide -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Proglumide">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Propane -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Propane">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Inhalants"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Propoxyphene -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Propoxyphene">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Partial_Agonists"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Psilocin -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Psilocin">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Psilocybin -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Psilocybin">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Psychostimulant -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Psychostimulant">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Psychostimulants"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Quazepam -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Quazepam">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Benzodiazepine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Quinine -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Quinine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Nutritional_Products"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/RMS_Uniserts -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/RMS_Uniserts">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Ralivia -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Ralivia">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tramadol"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Remifentanil -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Remifentanil">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Rescudose -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Rescudose">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Roxanol -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Roxanol">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Roxicet -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Roxicet">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycodone_IR"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Roxicodone -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Roxicodone">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycodone_IR"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Roxiprin -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Roxiprin">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycodone_IR"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Rybix -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Rybix">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tramadol"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Ryzolt -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Ryzolt">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tramadol"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Salvinorin-A -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Salvinorin-A">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Salvinorin"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Salvinorin-B -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Salvinorin-B">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Salvinorin"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Scopolamine -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Scopolamine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Anticholinergic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Secobarbital -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Secobarbital">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Barbiturates"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Statex -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Statex">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Statex_Drops -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Statex_Drops">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Stimulant -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Stimulant">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Stimulant"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Suboxone -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Suboxone">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine_opioid_depend"/>
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Mixed_Agonist-Antagonists"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Suboxone_film -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Suboxone_film">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Mixed_Agonist-Antagonists"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Substance -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Substance">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/General"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Subutex -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Subutex">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine_opioid_depend"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Sufentanil -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Sufentanil">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Sugar -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Sugar">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Adulterant"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Supeudol -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Supeudol">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycodone_IR"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_Cannabinoids -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_Cannabinoids">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/SCRA"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_Urine -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_Urine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/General"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_cocaine -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_cocaine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Synthacaine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/TFM-fly -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/TFM-fly">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Benzofuran-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/TFMMP -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/TFMMP">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Piperazine-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/TMA -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/TMA">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Trimethoxy"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/TMA-2 -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/TMA-2">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Trimethoxy"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/TMA-3 -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/TMA-3">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Trimethoxy"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/TMA-4 -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/TMA-4">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Trimethoxy"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/TMA-5 -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/TMA-5">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Trimethoxy"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/TMA-6 -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/TMA-6">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Trimethoxy"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Talbutal -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Talbutal">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Barbiturates"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Temazepam -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Temazepam">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Benzodiazepine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Temgesic -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Temgesic">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine_analgesic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Tetrachloroethylene -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Tetrachloroethylene">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Inhalants"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Tetrazepam -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Tetrazepam">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Benzodiazepine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Thiamylal -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Thiamylal">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Barbiturates"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Thiofentanyl -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Thiofentanyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Thiopental -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Thiopental">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Barbiturates"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Tidigesic -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Tidigesic">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine_analgesic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Toluene -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Toluene">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Inhalants"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Tramadol -->
+
+
+    <Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Tramadol">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tramadol"/>
+    </Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Triazolam -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Triazolam">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Benzodiazepine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Trichloroethane -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Trichloroethane">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Inhalants"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Trichloroethylene -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Trichloroethylene">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Inhalants"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Tussionex -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Tussionex">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Hydrocodone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Tussol -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Tussol">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Methadone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Tylox -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Tylox">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycodone_IR"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/U-47700 -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/U-47700">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_Opioid"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/U-48800 -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/U-48800">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_Opioid"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/U-49900 -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/U-49900">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_Opioid"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/U-4TDP -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/U-4TDP">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_Opioid"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/U-50488 -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/U-50488">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_Opioid"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/U-77891 -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/U-77891">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_Opioid"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Ultracet -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Ultracet">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tramadol"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Ultram -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Ultram">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tramadol"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Vicodin -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Vicodin">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Hydrocodone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Vicoprofen -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Vicoprofen">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Hydrocodone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/W-15 -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/W-15">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/W-18 -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/W-18">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Xylene -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Xylene">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Inhalants"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Zohydro -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Zohydro">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Hydrocodone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Zubsolv -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Zubsolv">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine_opioid_depend"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Zydol -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Zydol">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tramadol"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/alpha-PVP -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/alpha-PVP">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Cathinone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/bk-MBDB -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/bk-MBDB">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Phenylethylamine-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/bk-MDMA -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/bk-MDMA">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Cathinone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/bromo-2-dragonfly-5-butterfly -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/bromo-2-dragonfly-5-butterfly">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Benzofuran-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/fentanyl_buccal_film -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/fentanyl_buccal_film">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/fentanyl_injection -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/fentanyl_injection">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/fentanyl_lozenge -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/fentanyl_lozenge">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/fentanyl_nasal_spray -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/fentanyl_nasal_spray">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/fentanyl_sublingual_spray -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/fentanyl_sublingual_spray">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/fentanyl_tablet -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/fentanyl_tablet">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/fentanyl_transdermal_system -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/fentanyl_transdermal_system">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/isobutyrfentanyl -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/isobutyrfentanyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/l-Morphine -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/l-Morphine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/mCPP -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/mCPP">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Piperazine-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/mMPP -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/mMPP">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Piperazine-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/pFPP -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/pFPP">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Piperazine-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/pMPP -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/pMPP">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Piperazine-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/pMeOPP -->
+
+
+    <NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/pMeOPP">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Piperazine-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#2C-B -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#2C-B">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Piperazine-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#2C-B-BZP -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#2C-B-BZP">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Piperazine-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#2C-D -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#2C-D">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Piperazine-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#2C-E -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#2C-E">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Piperazine-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#2C-I -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#2C-I">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Piperazine-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#2C-P -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#2C-P">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Piperazine-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#2C-T-2 -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#2C-T-2">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Piperazine-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#2C-T-7 -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#2C-T-7">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Piperazine-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#2CB-FLY -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#2CB-FLY">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Benzofuran-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#2-AD -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#2-AD">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Aminoindane-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#2-AT -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#2-AT">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Aminoindane-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#2-MeO-Ketamine -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#2-MeO-Ketamine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Glutaminergic_NMDA_Antagonists"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#2-(Diphenylmethyl)pyrrolidine -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#2-(Diphenylmethyl)pyrrolidine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Pipradol-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#25B-NBOMe -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#25B-NBOMe">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Phenylethylamine-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#25C-NBOMe -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#25C-NBOMe">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Phenylethylamine-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#25I-NBOMe -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#25I-NBOMe">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Phenylethylamine-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#3C-B-FLY -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#3C-B-FLY">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Benzofuran-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#3M-Furanylfentanyl -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#3M-Furanylfentanyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#3-Allylfentanyl -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#3-Allylfentanyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#3-BMC -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#3-BMC">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Cathinone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#3-FMC -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#3-FMC">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Cathinone"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#3-Methylbutyrfentanyl -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#3-Methylbutyrfentanyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#3-Methylfentanyl -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#3-Methylfentanyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#3-Methylthiofentanyl -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#3-Methylthiofentanyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#4-Acetoxy-DMT -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#4-Acetoxy-DMT">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#4-Acetoxy-DiPT -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#4-Acetoxy-DiPT">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#4-FPP -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#4-FPP">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Piperazine-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#4-Fluoroamphetamine -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#4-Fluoroamphetamine">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_Amphetamine_Derivates"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#4-Fluoroisobutyrfentanyl -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#4-Fluoroisobutyrfentanyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#4-Flurobutyrfentanyl -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#4-Flurobutyrfentanyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#4-HO-DET -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#4-HO-DET">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#4-HO-DiT -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#4-HO-DiT">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#4-HO-MET -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#4-HO-MET">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#4-HO-MiPT -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#4-HO-MiPT">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#4-MTA -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#4-MTA">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_Amphetamine_Derivates"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#4-Methoxymethylfentanyl -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#4-Methoxymethylfentanyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#4-Phenylfentanyl -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#4-Phenylfentanyl">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#5-APB -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#5-APB">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Benzofuran-type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#5-MeO-AMT -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#5-MeO-AMT">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#5-MeO-DALT -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#5-MeO-DALT">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#5-MeO-DMT -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#5-MeO-DMT">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#5-MeO-DiPT -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#5-MeO-DiPT">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#5-Meo-MiPT -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#5-Meo-MiPT">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://knoesis.org/ontology/predose#6-APB -->
+
+
+    <NamedIndividual rdf:about="http://knoesis.org/ontology/predose#6-APB">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Benzofuran-type"/>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 0.6) https://github.com/owlcs/owlapi/ -->
+
+

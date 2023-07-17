@@ -1,0 +1,574 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="owlapi:ontology47711617657602"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="owlapi:ontology47711617657602">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Adulterant"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Aminoindane-type"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Psychostimulants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Analgesics"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Anticholinergic"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Hallucinogen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Antidepressant"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Psychological_Disorders_Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Antiepileptic"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Sedative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Antihistamines"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Antipsychotic"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Psychological_Disorders_Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Barbiturates"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Sedative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Benzodiazepine"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Sedative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Benzofuran-type"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Phenylethylamine-type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Bipolar_Treatment"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Psychological_Disorders_Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Partial_Agonists"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine_analgesic"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine_opioid_depend"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Caffeine"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Psychostimulants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Cannabidiol"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Cannabis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Cannabis"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Analgesics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Catecholaminelike"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Hallucinogen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Cathinone"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Phenylethylamine-type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Cimetidine"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Antihistamines"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Citrus"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Nutritional_Products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Cocaine"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Psychostimulants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Codeine"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/DNRI"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Antidepressant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Dimethoxy"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_Amphetamine_Derivates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Diphenhydramine"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Antihistamines"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Ethanol"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Sedative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Fentanyl-type"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Glutaminergic_NMDA_Antagonists"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Hallucinogen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Hallucinogen"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Herbal-Sedatives"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Sedative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Heroin"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Hydrocodone"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Hydromorphone"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Inhalants"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Sedative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Loperamide"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/MAOI"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Antidepressant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Methadone"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Mixed_Agonist-Antagonists"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Opioid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Monomethoxy"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_Amphetamine_Derivates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Naloxone"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Antagonists"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Naltrexone"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Antagonists"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Natural_Cannabis"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Cannabis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Nicotine"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Psychostimulants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Fentanyl-type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/NonBarbiturate_Sedatives"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Sedative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Nonnarcotic_Anti-imflammatory_Analgesics"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Analgesics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Nutritional_Products"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Opioid"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Analgesics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycodone-type"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycodone_IR"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycodone-type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycontin-type"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycodone-type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Oxymorphone"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Partial_Agonists"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Opioid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Pharmaceutical_Fentanyl"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Fentanyl-type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Phenylethylamine-type"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Psychostimulants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Piperazine-type"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Psychostimulants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Pipradol-type"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Phenylethylamine-type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Psychological_Disorders_Treatment"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Psychostimulants"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Opioid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Antagonists"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Opioid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Quinine"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Nutritional_Products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/SCRA"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Cannabis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/SNRI"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Antidepressant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/SSRI"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Antidepressant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Salvinorin"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Hallucinogen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Sedative"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Stimulant"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Psychostimulants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Synthacaine"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Cocaine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_Amphetamine_Derivates"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Psychostimulants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_Opioid"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/TCA"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Antidepressant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Tramadol"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Partial_Agonists"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Trimethoxy"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_Amphetamine_Derivates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Hallucinogen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Adulterant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Aminoindane-type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Anticholinergic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Antiepileptic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Antihistamines"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Barbiturates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Benzodiazepine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Benzofuran-type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Bipolar_Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine_analgesic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Buprenorphine_opioid_depend"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Caffeine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Cannabidiol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Catecholaminelike"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Cathinone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Cimetidine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Citrus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Cocaine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Codeine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Dimethoxy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Ethanol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Glutaminergic_NMDA_Antagonists"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Herbal-Sedatives"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Heroin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Hydrocodone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Hydromorphone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Inhalants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Loperamide"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Methadone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Mixed_Agonist-Antagonists"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Monomethoxy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Morphine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Naloxone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Natural_Cannabis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Non-Pharmaceutical_Fentanyl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/NonBarbiturate_Sedatives"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Nonnarcotic_Anti-imflammatory_Analgesics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Nutritional_Products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Opioid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycodone_IR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Oxycontin-type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Oxymorphone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Partial_Agonists"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Pharmaceutical_Fentanyl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Phenylethylamine-type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Piperazine-type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Pipradol-type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Psychostimulants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Pure_Agonists"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/SCRA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Salvinorin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Sedative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Stimulant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Synthacaine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_Amphetamine_Derivates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Synthetic_Opioid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Tramadol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Trimethoxy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://cor.esipfed.org/ont/~ushanri/DAO/Tryptamines"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.4) http://owlapi.sourceforge.net -->
+
